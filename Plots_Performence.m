@@ -10,8 +10,8 @@ mice_all = {
 for i_mice = 1: length(mice_all)
     micename=mice_all{i_mice};
     i_str = find(micename=='\');
-    miceID=micename(i_str(4)+1:i_str(5)-1);
-    mice_path=mice_all{i_mice}(1:i_str(5)-1);
+    miceID=micename(i_str(5)+1:i_str(6)-1);
+    mice_path=mice_all{i_mice}(1:i_str(6)-1);
 
     R_hit_allSession = [];
     R_miss_allSession = [];
